@@ -13,4 +13,4 @@ today = datetime.now().strftime("%m月%d日")
 luck_array = ["超スッキリ", "スッキリ", "最悪"]
 luck = random.choice(luck_array)
 
-st.write(f" {today}の運勢は「{luck}」です！")
+st.write(f"{today}の運勢は「{luck}」です！")
